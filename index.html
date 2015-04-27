@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Hombres Lobos vs Aldeanos</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 	<style type="text/css">
 		.panelPersonaje {
@@ -43,7 +45,7 @@
 		}
 		
 		.container {
-			width: 800px;
+			width: 1024px;
 		}
 	</style>
 </head>
@@ -51,188 +53,167 @@
 
 <div class="container">
 
-<div class="page-header">
-	<h1><img src="images/loboLogo.gif"/>Hombres Lobos vs Aldeanos
-	<small>(de Castronegro)</small></h1>
-</div>
-
-<div class="jumbotron">
-	<p>Juego de cartas de 8 a 18 jugadores creado en 2001 por Dimitry Davidoff, Philippe des Palli&eacute;res y Herv&eacute; Marly e inspirado en el juego precedente Werewolf (1986), 
-	que fue a su vez un redise&ntilde;o del juego Mafia adaptando su tema al de los hombres lobo.</p>
-</div>
-
-<ul class="nav nav-tabs" role="tablist">
-  <li class="active"><a href="#reglas"><span class="glyphicon glyphicon-random"></span>&nbsp;Reglas</a></li>
-  <li><a href="#cartas"><span class="glyphicon glyphicon-th"></span>&nbsp;Cartas</a></li>
-  <li><a href="#personajes"><span class="glyphicon glyphicon-user"></span>&nbsp;Personajes</a></li>
-  <li><a href="#distribucionPersonajes"><span class="glyphicon glyphicon-list"></span>&nbsp;Distribuci&oacute;n de Personajes</a></li>
-</ul>
-
-<div class="row">
-	<a id="reglas"></a>
-	<h2><span class="glyphicon glyphicon-random" />&nbsp;Reglas de Juego</h2>
-	<div style="float:right;">
-		<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
+	<div class="page-header">
+		<h1><img src="images/loboLogo.gif"/>Hombres Lobos vs Aldeanos
+		<small>(de Castronegro)</small></h1>
 	</div>
-	<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
-	Lorem Ipsum ha sido el texto de relleno est&aacute;ndar de las industrias desde el a&ntilde;o 1500, 
-	cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us&oacute; una
-	 galer&iacute;a de textos y los mezcl&oacute; de tal manera que logr&oacute; hacer un libro de textos especimen.
-	  No s&oacute;lo sobrevivi&oacute; 500 a&ntilde;os, sino que tambien ingres&oacute; como texto de relleno en documentos
-	  electr&oacute;nicos, quedando esencialmente igual al original. Fue popularizado
-	en los 60s con la creaci&oacute;n de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y m&aacute;s recientemente con software de autoedici&oacute;n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-	</p>
-</div>
 
-<div class="row">
-<a id="cartas"></a>
-<h2><span class="glyphicon glyphicon-th"/>&nbsp;Cartas <span class="badge">6</span></h2>
-	<div style="float:right;">
-		<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
+	<div class="jumbotron">
+		<p>Juego de cartas de 8 a 18 jugadores creado en 2001 por Dimitry Davidoff, Philippe des Palli&eacute;res y Herv&eacute; Marly e inspirado en el juego precedente Werewolf (1986), 
+		que fue a su vez un redise&ntilde;o del juego Mafia adaptando su tema al de los hombres lobo.</p>
 	</div>
-	<p>
-	A continuacion vemos la lista de cartas disponibles en el juego:
-	<ul>
-		<li>Aldeano</li>
-		<li>Lobo</li>
-		<li>Vidente</li>
-		<li>Cazador</li>
-		<li>Alguacil</li>
-		<li>Bruja</li>
+
+	<ul class="nav nav-tabs" role="tablist">
+	  <li class="active"><a href="#reglas"><span class="glyphicon glyphicon-random"></span>&nbsp;Reglas</a></li>
+	  <li><a href="#cartas"><span class="glyphicon glyphicon-th"></span>&nbsp;Cartas</a></li>
+	  <li><a href="#personajes"><span class="glyphicon glyphicon-user"></span>&nbsp;Personajes</a></li>
+	  <li><a href="#distribucionPersonajes"><span class="glyphicon glyphicon-list"></span>&nbsp;Distribuci&oacute;n de Personajes</a></li>
 	</ul>
-	</p>
-</div>
 
-<div class="row">
-<a id="personajes"></a>
-<h2><span class="glyphicon glyphicon-user"/>&nbsp;Personajes</h2>
-	<div style="float:right;">
-		<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
-	</div>
-<br/>
-	<div class="col-md-4">
-	 <div class="thumbnail panelPersonaje">
-		<img src="images/aldeano.gif"/>
-		<div class="caption">
-			<h3>Aldeano</h3>
-			<p>No posee ning&uacute;n poder especial, aparte de su intuici&oacute;n y su sentido com&uacute;n.</p>
+	<div class="row">
+		<a id="reglas"></a>
+		<h2><span class="glyphicon glyphicon-random" />&nbsp;Reglas de Juego</h2>
+		<div style="float:right;">
+			<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
 		</div>
-	 </div>
+		<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+		Lorem Ipsum ha sido el texto de relleno est&aacute;ndar de las industrias desde el a&ntilde;o 1500, 
+		cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us&oacute; una
+		 galer&iacute;a de textos y los mezcl&oacute; de tal manera que logr&oacute; hacer un libro de textos especimen.
+		  No s&oacute;lo sobrevivi&oacute; 500 a&ntilde;os, sino que tambien ingres&oacute; como texto de relleno en documentos
+		  electr&oacute;nicos, quedando esencialmente igual al original. Fue popularizado
+		en los 60s con la creaci&oacute;n de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y m&aacute;s recientemente con software de autoedici&oacute;n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+		</p>
 	</div>
-	
-	<div class="col-md-4">
-	  <div class="thumbnail panelPersonaje">
-		<img src="images/lobo.gif"/>
-		<div class="caption">
-			<h3>Lobo</h3>
-			<p>Por la noche, designar&aacute;n una v&iacute;ctima que ser&aacute; devorada. Debe haber unanimidad en la designaci&oacute;n de la v&iacute;ctima o, en caso contrario, no habr&aacute; v&iacute;ctima esa noche.</p>
+
+	<div class="row">
+	<a id="cartas"></a>
+	<h2><span class="glyphicon glyphicon-th"/>&nbsp;Cartas <span class="badge">6</span></h2>
+		<div style="float:right;">
+			<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
 		</div>
-	  </div>
+		<p>
+		A continuacion vemos la lista de cartas disponibles en el juego:
+		<ul>
+			<li>Aldeano</li>
+			<li>Lobo</li>
+			<li>Vidente</li>
+			<li>Cazador</li>
+			<li>Alguacil</li>
+			<li>Bruja</li>
+		</ul>
+		</p>
 	</div>
-	
-	<div class="col-md-4">
-	  <div class="thumbnail panelPersonaje">	
-		<img src="images/vidente.gif"/>
-		<div class="caption">
-			<h3>Vidente</h3>
-			<p>Todas las noches elige un jugador para que el Narrador le revele la carta de personaje correspondiente. El Narrador le muestra a la Vidente, en silencio y en secreto, la carta de dicho jugador. Nadie debe deducir qué carta ha sido mostrada por el ruido de la carta al manipularse ni por la posición del Narrador: si es necesario, el Narrador tocará todas las cartas, pero mostrará a la Vidente únicamente aquella que solicitó.</p>
+
+	<div class="row">
+		<a id="personajes"></a>
+		<h2><span class="glyphicon glyphicon-user"/>&nbsp;Personajes</h2>
+		<div style="float:right;">
+			<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
+		</div>		
+		<br/>
+
+		<div class="col-md-4">
+		 <div class="thumbnail panelPersonaje">
+			<img src="images/aldeano.gif"/>
+			<div class="caption">
+				<h3>Aldeano</h3>
+				<p>No posee ning&uacute;n poder especial, aparte de su intuici&oacute;n y su sentido com&uacute;n.</p>
+			</div>
+		 </div>
 		</div>
-	  </div>
-	</div>
-	
-	<div class="col-md-4">
-	  <div class="thumbnail panelPersonaje">
-		<img src="images/cazador.gif"/>
-		<div class="caption">
-			<h3>Cazador</h3>
-			<p>Cuando muera, puede elegir a otro jugador a quien matar. La decisión es únicamente suya y no se debe tomar por consenso ni consejo.</p>
+		
+		<div class="col-md-4">
+		  <div class="thumbnail panelPersonaje">
+			<img src="images/lobo.gif"/>
+			<div class="caption">
+				<h3>Lobo</h3>
+				<p>Por la noche, designar&aacute;n una v&iacute;ctima que ser&aacute; devorada. Debe haber unanimidad en la designaci&oacute;n de la v&iacute;ctima o, en caso contrario, no habr&aacute; v&iacute;ctima esa noche.</p>
+			</div>
+		  </div>
 		</div>
-	  </div>
-	</div>
-
-	<div class="col-md-4">
-	  <div class="thumbnail panelPersonaje">
-		<img src="images/sherif.gif"/>
-		<div class="caption">
-			<h3>Algualcil</h3>
-			<p>El Alguacil se elige democráticamente por el pueblo en un momento dado de la partida, a discreción del Narrador. Es un cargo o función, no un personaje. No supone ningún bando, y quien reciba el cargo de Alguacil gana la habilidad de que su voto para linchar valdrá por dos y, en caso de empate en la votación, él decidirá a qué jugador entre los empatados se lincha.</p>
+		
+		<div class="col-md-4">
+		  <div class="thumbnail panelPersonaje">	
+			<img src="images/vidente.gif"/>
+			<div class="caption">
+				<h3>Vidente</h3>
+				<p>Todas las noches elige un jugador para que el Narrador le revele la carta de personaje correspondiente. El Narrador le muestra a la Vidente, en silencio y en secreto, la carta de dicho jugador. Nadie debe deducir qué carta ha sido mostrada por el ruido de la carta al manipularse ni por la posición del Narrador: si es necesario, el Narrador tocará todas las cartas, pero mostrará a la Vidente únicamente aquella que solicitó.</p>
+			</div>
+		  </div>
 		</div>
-	  </div>
-	</div>
-
-	<div class="col-md-4">
-	  <div class="thumbnail panelPersonaje">
-		<img src="images/bruja.gif"/>
-		<div class="caption">
-			<h3>Bruja</h3>
-			<p>Posee dos pociones que puede usar por la noche, tras el turno de los hombres lobo: la Poción de la Vida salvará a un personaje del ataque de los Hombres Lobo (también puede reservársela para ella misma) y la Poción de la Muerte matará a otro personaje de su elección. Puede usar una, ninguna o las dos pociones durante el mismo turno si así lo desea, pero una vez ha utilizado una de las pociones, la pierde para el resto de la partida y no podrá volver a servirse de ella.</p>
+		
+		<div class="col-md-4">
+		  <div class="thumbnail panelPersonaje">
+			<img src="images/cazador.gif"/>
+			<div class="caption">
+				<h3>Cazador</h3>
+				<p>Cuando muera, puede elegir a otro jugador a quien matar. La decisión es únicamente suya y no se debe tomar por consenso ni consejo.</p>
+			</div>
+		  </div>
 		</div>
-	  </div>
+
+		<div class="col-md-4">
+		  <div class="thumbnail panelPersonaje">
+			<img src="images/sherif.gif"/>
+			<div class="caption">
+				<h3>Algualcil</h3>
+				<p>El Alguacil se elige democráticamente por el pueblo en un momento dado de la partida, a discreción del Narrador. Es un cargo o función, no un personaje. No supone ningún bando, y quien reciba el cargo de Alguacil gana la habilidad de que su voto para linchar valdrá por dos y, en caso de empate en la votación, él decidirá a qué jugador entre los empatados se lincha.</p>
+			</div>
+		  </div>
+		</div>
+
+		<div class="col-md-4">
+		  <div class="thumbnail panelPersonaje">
+			<img src="images/bruja.gif"/>
+			<div class="caption">
+				<h3>Bruja</h3>
+				<p>Posee dos pociones que puede usar por la noche, tras el turno de los hombres lobo: la Poción de la Vida salvará a un personaje del ataque de los Hombres Lobo (también puede reservársela para ella misma) y la Poción de la Muerte matará a otro personaje de su elección. Puede usar una, ninguna o las dos pociones durante el mismo turno si así lo desea, pero una vez ha utilizado una de las pociones, la pierde para el resto de la partida y no podrá volver a servirse de ella.</p>
+			</div>
+		  </div>
+		</div>
 	</div>
-</div>
 
-<div class="row">
-	<a id="distribucionPersonajes"></a>
-	<h2><span class="glyphicon glyphicon-list" />&nbsp;Distribuci&oacute;n de Personajes</h2>
-	<div style="float:right;">
-		<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
+	<div class="row">
+		<a id="distribucionPersonajes"></a>
+		<h2><span class="glyphicon glyphicon-list" />&nbsp;Distribuci&oacute;n de Personajes</h2>
+		<div style="float:right;">
+			<a href="#"><span class="glyphicon glyphicon-arrow-up"/></a>
+		</div>
+		<p>La siguiente tabla contiene la distribuci&oacute;n de personajes
+		sugerida seg&uacute;n la cantidad de jugadores</p>
+		
+		<table class="table table-striped table-centered" style="width:50%; margin: auto;">
+			<thead>
+				<tr>
+					<th align="center"># jugadores</th>
+					<th align="center"><img src="images/lobo.gif"/></th>
+					<th><img src="images/vidente.gif"/></th>
+					<th align="right"><img src="images/aldeano.gif"/></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td class="active">8</td><td>2</td><td>1</td><td>5</td></tr>
+				<tr><td class="active">9</td><td>2</td><td>1</td><td>6</td></tr>
+				<tr><td class="active">10</td><td>2</td><td>1</td><td>7</td></tr>
+				<tr><td class="active">11</td><td>2</td><td>1</td><td>8</td></tr>
+				<tr><td class="active">12</td><td>3</td><td>1</td><td>8</td></tr>
+				<tr><td class="active">13</td><td>3</td><td>1</td><td>9</td></tr>
+				<tr><td class="active">14</td><td>3</td><td>1</td><td>10</td></tr>
+				<tr><td class="active">15</td><td>3</td><td>1</td><td>11</td></tr>
+				<tr><td class="active">16</td><td>3</td><td>1</td><td>12</td></tr>
+				<tr><td class="active">17</td><td>3</td><td>1</td><td>13</td></tr>
+				<tr><td class="active">18</td><td>3</td><td>1</td><td>14</td></tr>
+			</tbody>
+		</table>
+
 	</div>
-	<p>La siguiente tabla contiene la distribuci&oacute;n de personajes
-	sugerida seg&uacute;n la cantidad de jugadores</p>
-	
-	<table class="table table-striped table-centered" style="width:50%; margin: auto;">
-		<thead>
-			<tr>
-				<th align="center"># jugadores</th>
-				<th align="center"><img src="images/lobo.gif"/></th>
-				<th><img src="images/vidente.gif"/></th>
-				<th align="right"><img src="images/aldeano.gif"/></th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td class="active">8</td><td>2</td><td>1</td><td>5</td>
-			</tr>
-			<tr>
-				<td class="active">9</td><td>2</td><td>1</td><td>6</td>
-			</tr>
-			<tr>
-				<td class="active">10</td><td>2</td><td>1</td><td>7</td>
-			</tr>
-			<tr>
-				<td class="active">11</td><td>2</td><td>1</td><td>8</td>
-			</tr>
-			<tr>
-				<td class="active">12</td><td>3</td><td>1</td><td>8</td>
-			</tr>
-			<tr>
-				<td class="active">13</td><td>3</td><td>1</td><td>9</td>
-			</tr>
-			<tr>
-				<td class="active">14</td><td>3</td><td>1</td><td>10</td>
-			</tr>
-			<tr>
-				<td class="active">15</td><td>3</td><td>1</td><td>11</td>
-			</tr>
-			<tr>
-				<td class="active">16</td><td>3</td><td>1</td><td>12</td>
-			</tr>
-			<tr>
-				<td class="active">17</td><td>3</td><td>1</td><td>13</td>
-			</tr>
-			<tr>
-				<td class="active">18</td><td>3</td><td>1</td><td>14</td>
-			</tr>
-		</tbody>
-	</table>
 
-</div>
+	<br/>
 
-<br/>
-
-<div class="footer">
-  <p>&copy; Construcci&oacute;n de Interfaces de Usuario 2014</p>
-</div>
+	<div class="footer">
+	  <p>&copy; Construcci&oacute;n de Interfaces de Usuario 2014</p>
+	</div>
 
 </div>
 </body>
